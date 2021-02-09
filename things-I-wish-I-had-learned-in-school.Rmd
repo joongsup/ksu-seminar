@@ -48,45 +48,31 @@ class: inverse, center, middle
 
 --
 
-- US Army (Automated Logistical Specialist)
---
- `-->` Database (Data Entry)
+- US Army (Automated Logistical Specialist) `-->` Database (Data Entry)
 
 --
 
-- UNC (BS in Mathematical Decision Science)
---
- `-->` Matlab
+- UNC (BS in Mathematical Decision Science) `-->` Matlab
 
 --
 
-- New York Life Insurance (Actuarial Intern)
---
- `-->` Excel (Shortcut), Database (Query)
+- New York Life Insurance (Actuarial Intern) `-->` Excel (Shortcut), Database (Query)
 
 --
 
-- Georgia Tech (MS/PhD in Industrial Engineering)
---
- `-->` Matlab
+- Georgia Tech (MS/PhD in Industrial Engineering) `-->` Matlab
 
 --
 
-- EPA (Physical Scientist Intern) 
---
- `-->` Database (MS Access)
+- EPA (Physical Scientist Intern) `-->` Database (MS Access)
 
 --
 
-- UPS (Security Analyst in Corp. Security)
---
- `-->` R (Plotting), Database (Data Warehouse)
+- UPS (Security Analyst in Corp. Security) `-->` R (Plotting), Database (Data Warehouse)
 
 --
 
-- AT&T (Data Scientist in Chief Data Office)
---
- `-->` R (Packaging), Python, Big Data
+- AT&T (Data Scientist in Chief Data Office) `-->` R (Packaging), Python, Big Data
 
 ???
 
@@ -113,7 +99,7 @@ knitr::include_graphics("figs/cran-home.png")
 
 --
 
-- install.packages(["ggplot2"](https://cran.r-project.org/web/packages/ggplot2/index.html))
+- install.packages(["ggplot2"](https://ggplot2.tidyverse.org/))
 
 --
 
@@ -121,7 +107,7 @@ knitr::include_graphics("figs/cran-home.png")
 
 --
 
-- [uncmbb](https://cran.r-project.org/web/packages/uncmbb/index.html) package on CRAN
+- [uncmbb](https://github.com/joongsup/uncmbb) package on CRAN
 
 --
 
@@ -129,15 +115,11 @@ knitr::include_graphics("figs/cran-home.png")
 
 --
 
-- Analytical mindset
-
---
-
-- Know and sharpen your tools
-
---
-
 - Things I wish I had learned in school
+
+--
+
+- Some didn't exist, but mostly I just didn't know better
 
 --
 
@@ -152,11 +134,13 @@ knitr::include_graphics("figs/cran-home.png")
 
 class: inverse, center, middle
 
-# Add Survey Result
+# [Survey Result](https://www.surveymonkey.com/stories/SM-RH767LF2/)
 
 ---
 
 # Operating System
+
+--
 
 - Mainly for Windows users
 
@@ -234,10 +218,6 @@ class: inverse, center, middle
 
 --
 
-- Search path
-
---
-
 - Files, files, and more files
 
 --
@@ -266,6 +246,11 @@ class: inverse, center, middle
 
 
 --
+
+- Get used to working with plain text files
+
+--
+
 
 - A variety of text editors
 --
@@ -454,7 +439,7 @@ include_graphics("figs/rp-overview.jpg")
 - More emphasis on other steps in industry
 
 --
-- Team sport aspects
+- Team sport 
 --
 
     - Team lead
@@ -510,18 +495,17 @@ include_graphics("figs/rp-overview.jpg")
 # Links
 
 - [Good Enough Practices in Scientific Computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
-- [Terminal and Shell](http://www.it.uu.se/education/course/homepage/os/vt18/module-0/shell-and-terminal/)
 - [Carpentries Lesson on Shell](http://swcarpentry.github.io/shell-novice/)
 - [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 - [Data Science at Command Line](https://www.datascienceatthecommandline.com/2e/)
 - [Editor War](https://en.wikipedia.org/wiki/Editor_war)
-- [The Carpentries](https://software-carpentry.org/lessons/)
-- [R Packaging using RStudio](https://joongsup.rbind.io/slides/r_pkg_devel?force_isolation=true)
 - [R for Data Science](https://r4ds.had.co.nz/)
 - [What They Forgot To Teach You About R](https://rstats.wtf/index.html)
+- [R Graphics Cookbook](https://r-graphics.org/)
 - [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Anaconda Data Science Toolkit](https://www.anaconda.com/products/individual)
 - [Project-Oriented Workflow](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/)
+- [Why Jupyter Is Data Scientists’ Computational Notebook of Choice](https://www.nature.com/articles/d41586-018-07196-1)
 - [The First Notebook War](https://yihui.org/en/2018/09/notebook-war/#what-do-notebooks-and-spreadsheets-have-in-common)
 - [I Don't Like Notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U)
 

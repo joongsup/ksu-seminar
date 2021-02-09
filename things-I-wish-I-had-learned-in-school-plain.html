@@ -32,52 +32,24 @@ class: inverse, center, middle
 
 # Introduction
 
---
-
-- Where (Role) `--&gt;` Tool(s)
-
---
 
 - US Army (Automated Logistical Specialist) `--&gt;` Database (Data Entry)
 
---
-
 - UNC (BS in Mathematical Decision Science) `--&gt;` Matlab
-
---
 
 - New York Life Insurance (Actuarial Intern) `--&gt;` Excel (Shortcut), Database (Query)
 
---
-
 - Georgia Tech (MS/PhD in Industrial Engineering) `--&gt;` Matlab
-
---
 
 - EPA (Physical Scientist Intern) `--&gt;` Database (MS Access)
 
---
-
 - UPS (Security Analyst in Corp. Security) `--&gt;` R (Plotting), Database (Data Warehouse)
 
---
-
 - AT&amp;T (Data Scientist in Chief Data Office) `--&gt;` R (Packaging), Python, Big Data
-
-???
-
-- views on my own, not of employer 
-- go over career journey since high school with focus on math-related background
-- have walk-thru handy for each tool
-    - OS/shell/vim
-    - R/python
-    - workflow
 
 ---
 
 # Motivation
-
---
 
 .right-plot[
 &lt;img src="figs/cran-home.png" width="100%" /&gt;
@@ -85,164 +57,73 @@ class: inverse, center, middle
 
 - [CRAN](https://cran.r-project.org/)
 
---
-
 - install.packages(["ggplot2"](https://ggplot2.tidyverse.org/))
-
---
 
 - R package development workshop in 2017
 
---
-
 - [uncmbb](https://github.com/joongsup/uncmbb) package on CRAN
-
---
 
 - [The Carpentries](https://software-carpentry.org/lessons/)
 
---
-
 - Things I wish I had learned in school
-
---
 
 - Some didn't exist, but mostly I just didn't know better
 
---
-
 - Introductory by design, not comprehensive
-
-???
-
-- some topics I didn't care much, others were not available yet (while I was in school)
-
-
----
-
-class: inverse, center, middle
-
-# [Survey Result](https://www.surveymonkey.com/stories/SM-RH767LF2/)
 
 ---
 
 # Operating System
 
---
-
 - Mainly for Windows users
-
---
 
 - Local Machine (e.g., your computer) vs. Remote Server (e.g., school computing server)
 
---
-
 - Know there are other [operating systems](https://en.wikipedia.org/wiki/Operating_system)
-
---
 
 - Play with other operating systems (mainly [Linux](https://en.wikipedia.org/wiki/Linux)) 
 
---
-
 - There are many [flavors](https://en.wikipedia.org/wiki/List_of_Linux_distributions) of Linux, but don't be discouraged! ([Ubuntu](https://ubuntu.com/download/desktop) is just fine)
-
---
 
 - Windows Subsystem for Linux ([WSL](https://docs/microsoft.com/en-us/windows/wsl/about))
 
---
-
 - Try ([Virtual Box](https://www.virtualbox.org/), [USB boot](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview))
-
-???
-
-- not an expert, but to bring it up to attention
-- not saying one OS is necessarily better than the others
-- but esp Windows users, be aware and test drive other OS, starting w/ any Linux
-- only at AT&amp;T, started using non-Windows OS
-    - meaning I've been an Windows' user exclusively for majority of my life
-    - not b/c I loved it, but b/c I didn't know much about alternatives
-    - not saying it's wrong
-    - who knows, I might go back to Windows in 10 years
-- depends on employer's choice
-- open source aspect
-- with [Docker](https://www.docker.com/resources/what-container), no need to worry about which OS to use
 
 ---
 
 # Shell
 
---
 
 - [Terminal](https://en.wikipedia.org/wiki/Terminal_emulator)
---
-
     - Really, a terminal *emulator*
---
     - A graphical window
---
     - Lets you interact with your operating system through shell
 
---
 
 - [Shell](https://swcarpentry.github.io/shell-novice/01-intro/index.html)
---
-
     - Command line interface (CLI)
---
     - Scripting/programming language
---
     - Bash ("**B**ourne **a**gain **sh**ell") is default for many OS
 
---
 
-- Terminal
---
- `--&gt;` Shell
---
- `--&gt;` Operating System
-
---
+- Terminal `--&gt;` Shell `--&gt;` Operating System
 
 - Files, files, and more files
 
---
-
 - Project directory structure
 
---
-
 - Easier in action than in text
-
-???
-
-- shell: a thing/program/interface that lets you interact w/ operating system
-- many different types
-    - I'm using default (bash)
-    
 
 ---
 
 # Text Files
 
---
-
-
 - Most work in shell is text-based
-
-
---
 
 - Get used to working with plain text files
 
---
-
 
 - A variety of text editors
---
-
     - [Vim](https://en.wikipedia.org/wiki/Vim_(text_editor)
     - [Emacs](https://en.wikipedia.org/wiki/Emacs)
     - [Notepad/Notepad++](https://notepad-plus-plus.org/)
@@ -251,74 +132,37 @@ class: inverse, center, middle
     - [RStudio](https://rstudio.com/)
     - [And more](https://en.wikipedia.org/wiki/Text_editor)
 
---
 
 - Pick a text editor and try using it for any text-based tasks 
---
-
     - Coding
     - [Note taking](https://github.com/vimwiki/vimwiki)
     - [Presentation](https://github.com/yihui/xaringan)
 
---
 
-- How to write in a text editor?
---
-`--&gt;` check out [R Markdown](https://rmarkdown.rstudio.com/)
-
-???
-
-- not saying one's better than others
-- personally using Vim for the last couple of years
-
+- How to write in a text editor? `--&gt;` check out [R Markdown](https://rmarkdown.rstudio.com/)
 
 ---
 
 # Languages of Data Science
 
---
-
-- [R](https://www.r-project.org/) or [Python](https://www.python.org/)?
---
- Both!
---
-
+- [R](https://www.r-project.org/) or [Python](https://www.python.org/)? Both!
     - "R is a language and environment for statistical computing and graphics"
---
     - "Python is a programming language that lets you work quickly and integrate systems more effectively"
 
---
 
 - Plotting
---
-
     - Bar chart
---
     - Line chart
---
     - Covers majority of plotting needs
 
---
 
 - Packaging
---
-
     - [R Package](https://r-pkgs.org/)
---
     - [Python Package](https://py-pkgs.org/) 
---
     - Start w/ data package ([babynames](https://cran.r-project.org/web/packages/babynames/index.html), [uncmbb](https://cran.r-project.org/web/packages/uncmbb/index.html))
 
---
 
 - And everything between plotting and packaging
-
-???
-
-- then, finally, data science languages
-- where it all started for me in RStudio conference in Orlando, FL 2017 
-- "R is more specific and Python is more general"
-- packaging is a process of putting commonly used codes and documentation together
 
 ---
 
@@ -379,7 +223,7 @@ dat %&gt;% ggplot(aes(x = Result, y = games)) +
 ]
 
 .right-plot[
-&lt;img src="things-I-wish-I-had-learned-in-school_files/figure-html/unnamed-chunk-1-1.png" width="504" /&gt;
+&lt;img src="things-I-wish-I-had-learned-in-school-plain_files/figure-html/unnamed-chunk-1-1.png" width="504" /&gt;
 ]
 
 ---
@@ -414,7 +258,7 @@ dat %&gt;% ggplot(aes(x = Season, y = win_pct, group = 1)) +
 ]
 
 .right-plot[
-&lt;img src="things-I-wish-I-had-learned-in-school_files/figure-html/unnamed-chunk-2-1.png" width="504" /&gt;
+&lt;img src="things-I-wish-I-had-learned-in-school-plain_files/figure-html/unnamed-chunk-2-1.png" width="504" /&gt;
 ]
 
 
@@ -423,40 +267,25 @@ dat %&gt;% ggplot(aes(x = Season, y = win_pct, group = 1)) +
 
 # Data Science Workflow
 
---
-
 .right-plot[
 &lt;img src="figs/rp-overview.jpg" width="100%" /&gt;
 ]
 
 - Example data science workflow ([source](https://cacm.acm.org/blogs/blog-cacm/169199-data-science-workflow-overview-and-challenges/fulltext))
 
---
-
 - Missing, but important: **Problem Formulation**
-
---
 
 - Iterative in nature
 
---
-
 - Emphasis on "Analysis" step in school
-
---
 
 - More emphasis on other steps in industry
 
---
-- Team sport 
---
 
+- Team sport 
     - Team lead
---
     - Project managers
---
     - Data engineers
---
     - Data scientists
     
 
@@ -464,40 +293,22 @@ dat %&gt;% ggplot(aes(x = Season, y = win_pct, group = 1)) +
 
 # Parting Thoughts
 
---
-
 
 - In a nutshell, try
---
-
     - Ubuntu
---
     - Bash shell
---
     - Text editor
---
     - Bar/line charts in R/Python
---
     - Package things up in R/Python
---
     - Data science workflow
---
 
 
 - Other topics that are not covered
---
-
     - [Git (version control)](https://swcarpentry.github.io/git-novice/01-basics/index.html)
---
     - [SQL](https://www.w3schools.com/sql/sql_intro.asp)
---
     - [Blogging](https://bookdown.org/yihui/blogdown/)
---
     - Communication
---
     - Much more...
-
-???
 
 ---
 
@@ -530,8 +341,6 @@ class: right, clear
 background-image: url(figs/cat.jpg)
 background-size: contain
 background-position: left
-
-
 
 
 &lt;br&gt;&lt;br&gt;
