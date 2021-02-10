@@ -5,6 +5,7 @@ author: "Jay Lee @AT&T"
 date: "2021/02/10"
 output:
   xaringan::moon_reader:
+    self_contained: true
     yolo: false
     css: [metropolis, metropolis-fonts, custom.css]
     lib_dir: libs
