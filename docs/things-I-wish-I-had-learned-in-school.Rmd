@@ -540,6 +540,7 @@ please reach out and let me know!
 [`r icon::octicons$mail`](mailto:uncmbbtrivia@gmail.com)
 [`r icon::fontawesome$solid$link`](https://joongsup.rbind.io)
 [`r icon::fontawesome$brands$linkedin`](https://www.linkedin.com/in/joongsupjaylee/)
+[`r icon::fontawesome$brands$github`](https://github.com/joongsup/ksu-seminar)
 
 For now,
 
