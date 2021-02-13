@@ -169,6 +169,11 @@ class: inverse, center, middle
 
 - Try ([Virtual Box](https://www.virtualbox.org/), [USB boot](https://ubuntu.com/tutorials/create-a-usb-stick-on-windows#1-overview))
 
+--
+
+- Not saying one is better than others
+
+
 ???
 
 - not an expert, but to bring it up to attention
@@ -441,16 +446,15 @@ include_graphics("../img/rp-overview.jpg")
 
 --
 - Team sport 
---
-
     - Team lead
---
     - Project managers
---
     - Data engineers
---
     - Data scientists
     
+--
+
+
+- Unique responsibilities yet overlapping tasks 
 
 ---
 
